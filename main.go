@@ -42,6 +42,10 @@ import (
 	"google.golang.org/grpc"
 )
 
+const (
+	AppVersion = "1.0.0"
+)
+
 var (
 	catalogMutex *sync.Mutex
 	log          *logrus.Logger
